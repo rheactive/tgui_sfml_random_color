@@ -88,7 +88,7 @@ int main()
     gui.add(edit_box1);
     edit_box1 -> setTextSize(fsz1);
     edit_box1 -> setPosition(GUI_x, 13 * margin_y);
-    edit_box1 -> setSize(10 * fsz1, 1.2 * fsz1);
+    edit_box1 -> setSize(7 * fsz1, 1.2 * fsz1);
     edit_box1 -> setAlignment(tgui::EditBox::Alignment::Center);
     edit_box1 -> setReadOnly(false);
 
@@ -150,7 +150,7 @@ int main()
                 label1 -> setTextSize(fsz1);
                 label2 -> setTextSize(fsz1);
                 edit_box1 -> setTextSize(fsz1);
-                edit_box1 -> setSize(11 * fsz1, 1.2 * fsz1);
+                edit_box1 -> setSize(7 * fsz1, 1.2 * fsz1);
 
                 label1 -> setPosition(GUI_x * scale_x, margin_y * scale_y);
                 button1 -> setPosition(GUI_x * scale_x, 5 * margin_y * scale_y);
